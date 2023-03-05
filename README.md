@@ -4,9 +4,10 @@ I just wanted to understand how different phases of amplify commands would make 
 
 Different amplify commands we will use during the process are:
 
-<br>
-<b> Configure amplify-cli with user profile, region and access Id's and secure keys </b>
-<br>
+<br >
+
+**Configure amplify-cli with user profile, region and access Id's and secure keys**
+
 ```sh
 $ amplify configure
 ```
@@ -14,3 +15,12 @@ the above command would not impact any folder structure of the project. this wou
 
 we are setting up an extra set of commands to configure our project with tailwind css.
 
+#### Now we are going to execute amplify command to configure project( most awaited process )
+
+```sh
+$ amplify init
+```
+
+and enter all the questions asked in the prompt and give it some time to initialise amplify project. 
+
+After this command, it will create new folder called amplify and adds files are to be ignored into `.gitignore` file. 
