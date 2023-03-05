@@ -30,3 +30,9 @@ After this command, it will create new folder called amplify and adds files are 
 this will add `aws-amplify` and `@aws-amplify/ui-react` to package.json dependencies list ready to be used in the project.
 
 
+**Now lets add an api to amplify**
+```sh
+$ amplify add <api_name>
+```
+
+this will also ask you with some question on type of api and other stuff. after this you will used `amplify push` which uses awscloudformation to create apis
