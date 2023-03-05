@@ -24,3 +24,9 @@ $ amplify init
 and enter all the questions asked in the prompt and give it some time to initialise amplify project. 
 
 After this command, it will create new folder called amplify and adds files are to be ignored into `.gitignore` file. 
+
+
+**install necessary aws-amplify package and ui react library**
+this will add `aws-amplify` and `@aws-amplify/ui-react` to package.json dependencies list ready to be used in the project.
+
+
